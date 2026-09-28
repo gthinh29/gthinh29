@@ -5,7 +5,7 @@
 <p align="center">
   <b>AI Engineer & Backend Developer</b> | Specializing in <b>RAG Architecture, LLM Fine-Tuning & Full-Cycle System Development</b>
   <br />
-  📍 Ho Chi Minh City, Vietnam &nbsp;|&nbsp; 🎓 University of Transport HCMC (UTH) &nbsp;|&nbsp; ✉️ Open to AI / Backend Roles
+  📍 Ho Chi Minh City, Vietnam &nbsp;|&nbsp; 🎓 University of Transport HCMC (UTH) &nbsp;|&nbsp; ✉️ Available for AI / Backend Roles
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 | Category | Highlights |
 |:---|:---|
-| **Target Roles** | **AI Engineer** • **AI / RAG Engineer** • **Backend Developer** (Python / Java / FastAPI) |
+| **Target Roles** | **AI Engineer** (Junior/Fresher) • **AI / RAG Engineer** • **Backend Developer** (Python / Java / FastAPI) |
 | **Education** | **University of Transport Ho Chi Minh City (UTH)** — Software Engineering (2023 – 2027) |
 | **Technical Focus** | Production RAG Systems (FAISS, Qdrant, LangChain4j), LLM Fine-Tuning (LoRA / QLoRA, Llama 3.1), Microservices / Modular Monoliths, Realtime Systems (WebSockets) |
 | **Key Projects** | 1. **Lexdraft** (Team Lead): Legal RAG & contract drafting platform with structure-aware chunking & Ragas evaluation<br/>2. **EduChatbot** (AI & Fine-Tuning Specialist): Enterprise educational RAG & Fine-Tuning benchmark on Llama 3.1 8B with Java Spring Boot + Qdrant<br/>3. **ROS - Restaurant Ordering System** (Team Lead): Multi-platform restaurant system (FastAPI, Flutter, React POS/KDS) with realtime WebSocket event bus |
@@ -103,19 +103,19 @@
                                       Drafted Contracts / Risk Advisory
 ```
 
-- **Modular Monolith Architecture**: Structured backend into discrete modules: `drafting`, `risk_assessment`, `chatbot_qa`, and `shared` infrastructure.
-- **Structure-Aware Legal Chunking**: Engineered hierarchical parser respecting Vietnamese legal formatting (Điều/Khoản) rather than naive token splitting, drastically improving retrieval precision.
-- **Law Validity Checker**: Built specialized pipeline verifying whether cited legal articles are currently active or repealed.
+- **Modular Monolith Architecture**: Structured backend into discrete modules: `drafting`, `risk_assessment`, `chatbot_qa`, và hạ tầng dùng chung `shared`.
+- **Structure-Aware Legal Chunking**: Thiết kế bộ phân đoạn ngữ cảnh thông minh bám sát cấu trúc phân cấp Điều/Khoản luật Việt Nam thay vì chunking theo số từ/ký tự ngẫu nhiên, giúp tối ưu độ khớp ngữ nghĩa.
+- **Law Validity Checker**: Xây dựng pipeline kiểm tra và phát hiện văn bản luật đã hết hiệu lực pháp lý để ngăn chặn dẫn chiếu sai quy định.
 - **Scientific RAG Benchmarking**:
-  - Implemented automated evaluation using **Ragas** across Faithfulness, Answer Relevance, and Context Precision.
-  - Formulated and verified 3 scientific hypotheses: A/B comparison with vanilla LLMs, ablation of legal metadata, and hallucination refusal safety thresholds.
+  - Tích hợp framework **Ragas** tự động đánh giá: Faithfulness, Answer Relevance và Context Precision.
+  - Thiết kế và kiểm chứng 3 giả thiết khoa học: so sánh A/B với LLM thuần, khảo sát triệt tiêu (ablation study) metadata pháp luật và ngưỡng an toàn từ chối hallucination.
 
 ---
 
 ### 2. 🎓 EduChatbot: Intelligent Enterprise Educational Assistant
 **Research & University Project** | **Role:** AI & Fine-Tuning Engineer  
 **Tech Stack:** `Python` · `Llama 3.1 8B` · `LoRA / QLoRA` · `Java 17 (Spring Boot 3)` · `LangChain4j` · `Qdrant` · `FastAPI`  
-**Repository:** [github.com/gthinh29/Educhatbot](https://github.com/gthinh29/Educhatbot) *(Source: edu-chatbot-java)* &nbsp;|&nbsp; **Live Demo:** [educhatbot-orcin.vercel.app](https://educhatbot-orcin.vercel.app/)
+**Repository:** [github.com/gthinh29/Educhatbot](https://github.com/gthinh29/Educhatbot) &nbsp;|&nbsp; **Live Demo:** [educhatbot-orcin.vercel.app](https://educhatbot-orcin.vercel.app/)
 
 > **Problem**: University students need verified academic answers across syllabus materials, requiring an empirical study determining optimal trade-offs between RAG and Parameter-Efficient Fine-Tuning (PEFT).
 
@@ -132,10 +132,10 @@
     (Documents & Audit Logs)          (LoRA Fine-Tuned Llama 3.1 8B)
 ```
 
-- **LLM Fine-Tuning Specialization**: Fine-tuned **Llama 3.1 8B** using LoRA/QLoRA on subject-specific institutional question-and-answer corpora, optimizing latency, domain vocabulary adherence, and response structure.
-- **Empirical RAG vs. Fine-Tuning Study**: Designed side-by-side benchmark comparing RAG retrieval performance against fine-tuned model inference across latency, accuracy, and hallucination metrics.
-- **Java-Python Microservice Communication**: Connected enterprise Spring Boot 3 LangChain4j workflows with Python FastAPI model inference workers.
-- **Multi-Role Access Control**: Supported granular role hierarchy (`STUDENT`, `TEACHER`, `ADMIN`) with Spring Security JWT tokens.
+- **LLM Fine-Tuning Specialization**: Trực tiếp đảm nhận vai trò **Fine-tune Llama 3.1 8B** sử dụng phương pháp LoRA/QLoRA trên tập dữ liệu giáo trình và tài liệu đào tạo chuyên biệt; tối ưu cấu trúc phản hồi và độ chính xác chuyên môn.
+- **Thực nghiệm so sánh RAG vs Fine-Tuning**: Thiết kế pipeline benchmarking độc lập so sánh hiệu năng, độ trễ (latency), tỷ lệ hallucination giữa hai phương pháp RAG và Fine-tuning.
+- **Java-Python Microservice Communication**: Tích hợp Spring WebClient kết nối bất đồng bộ giữa backend Java Spring Boot 3 LangChain4j và dịch vụ Python FastAPI phục vụ model LoRA.
+- **Enterprise Security & Phân quyền**: Quản lý phân quyền chặt chẽ theo vai trò (`STUDENT`, `TEACHER`, `ADMIN`) qua Spring Security & JWT.
 
 ---
 
@@ -162,27 +162,30 @@
  (Flutter / QR)                  (Flutter)    (React / TS Realtime)    (React / TS)
 ```
 
-- **Team Leadership & System Architecture**: Orchestrated a 4-person engineering team, authored ERD, WebSocket protocol specifications, and managed Git branching and PR code reviews.
-- **High-Throughput Async Backend**: Developed core business services using **FastAPI** & **SQLAlchemy 2.0 (asyncio)** with **PostgreSQL 16**.
-- **Real-Time Kitchen Dispatch (KDS)**: Built sub-second bi-directional WebSocket event channels for instant order notification from table QR scans to kitchen preparation stations.
-- **Complex Financial Workflows**: Implemented multi-guest bill splitting logic (Item-based & Evenly split sub-bills), dynamic table state machine, and inventory deduction upon order fulfillment.
-- **End-to-End Containerization**: Packaged multi-service architecture (Postgres, API, Nginx, Web apps) with automated healthchecks using **Docker Compose**.
+- **Team Leadership & System Architecture**: Trưởng nhóm dự án 4 thành viên; thiết kế kiến trúc toàn hệ thống, sơ đồ CSDL (ERD), đặc tả giao thức realtime WebSocket, phân công nhiệm vụ và review mã nguồn (Pull Request).
+- **High-Throughput Async Backend**: Xây dựng toàn bộ tầng backend nghiệp vụ với **FastAPI** và **SQLAlchemy 2.0 (asyncio)** kết nối cơ sở dữ liệu **PostgreSQL 16**.
+- **Real-Time Kitchen Dispatch (KDS)**: Triển khai kênh WebSockets 2 chiều độ trễ <1s kết nối tức thời đơn đặt món từ bàn ăn khách hàng tới màn hình hiển thị tại bếp (KDS).
+- **Quy trình nghiệp vụ tài chính phức tạp**: Xử lý logic chia hóa đơn (Split Bill theo món hoặc chia đều), máy trạng thái quản lý bàn ăn (Table State Machine), và cơ chế tự động trừ nguyên liệu/kho khi chốt món.
+- **Containerization**: Đóng gói toàn bộ hệ thống (PostgreSQL, FastAPI Backend, Nginx, các ứng dụng Web) với cấu hình **Docker Compose** và healthcheck tự động.
 
 ---
 
 ## 👨‍💼 Technical Leadership & Engineering Practices
 
-- **End-to-End System Design**: Experience architecting scalable systems from database schema design (ERD), SRS documentation, through API contracts and deployment.
-- **Git & Engineering Workflow**: Strict adherence to trunk-based or feature-branch Git workflows, automated linting (`ruff`, `eslint`), and comprehensive pull request code reviews.
-- **AI Evaluation Rigor**: Strong proponent of empirical evaluation (Ragas, A/B Testing, synthetic benchmarks) rather than purely subjective LLM testing.
+- **End-to-End System Design**: Năng lực phân tích, thiết kế kiến trúc hệ thống bài bản từ Database schema (ERD), tài liệu đặc tả yêu cầu (SRS) đến hợp đồng API (API Contracts) và triển khai.
+- **Quy trình Git & Code Quality**: Áp dụng chặt chẽ Git workflow theo nhánh chức năng, thiết lập kiểm tra mã nguồn tự động (`ruff`, `eslint`) và văn hóa code review nghiêm túc.
+- **AI Evaluation Rigor**: Tư duy kiểm thử định lượng hệ thống AI dựa trên số liệu thực nghiệm (Ragas, A/B testing) thay vì đánh giá cảm tính.
 
 ---
 
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gthinh29&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" height="155" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gthinh29&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF" height="155" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=gthinh29&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF" height="155" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=gthinh29&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF" height="155" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=gthinh29&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakNum=00D9FF" height="155" alt="GitHub Streak" />
 </p>
 
 ---
@@ -205,8 +208,16 @@
     <img src="https://img.shields.io/badge/GitHub-gthinh29-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="mailto:giathinh29@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="https://github.com/gthinh29/Lexdraft">
+    <img src="https://img.shields.io/badge/Project-Lexdraft-00D9FF?style=for-the-badge&logo=python" alt="Lexdraft" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/gthinh29/Educhatbot">
+    <img src="https://img.shields.io/badge/Project-Educhatbot-6DB33F?style=for-the-badge&logo=openjdk" alt="Educhatbot" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/gthinh29/ROS">
+    <img src="https://img.shields.io/badge/Project-ROS-FF6600?style=for-the-badge&logo=fastapi" alt="ROS" />
   </a>
 </p>
 

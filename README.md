@@ -24,7 +24,7 @@
 | **Target Roles** | **AI Engineer** (Junior/Fresher) • **AI / RAG Engineer** • **Backend Developer** (Python / Java / FastAPI) |
 | **Education** | **University of Transport Ho Chi Minh City (UTH)** — Software Engineering (2023 – 2027) |
 | **Technical Focus** | Production RAG Systems (FAISS, Qdrant, LangChain4j), LLM Fine-Tuning (LoRA / QLoRA, Llama 3.1), Microservices / Modular Monoliths, Realtime Systems (WebSockets) |
-| **Key Projects** | 1. **Lexdraft** (Team Lead): Legal RAG & contract drafting platform with structure-aware chunking & Ragas evaluation<br/>2. **EduChatbot** (AI & Fine-Tuning Specialist): Enterprise educational RAG & Fine-Tuning benchmark on Llama 3.1 8B with Java Spring Boot + Qdrant<br/>3. **ROS - Restaurant Ordering System** (Team Lead): Multi-platform restaurant system (FastAPI, Flutter, React POS/KDS) with realtime WebSocket event bus |
+| **Key Projects** | 1. **Lexdraft** (Team Lead): Legal RAG & contract drafting platform with structure-aware chunking & Ragas evaluation<br/>2. **EduChatbot** (AI & Fine-Tuning Specialist): Enterprise educational RAG & Fine-Tuning benchmark on Llama 3.1 8B with Java Spring Boot + Qdrant<br/>3. **ROS - Restaurant Ordering System** (Team Lead): Multi-platform restaurant system (FastAPI backend, Flutter web/mobile apps) with realtime WebSocket event bus |
 | **Technical Leadership** | Team Lead across multi-member software engineering projects; authoring System Architecture, API contracts, SRS, and orchestrating Git workflows |
 
 ---
@@ -34,17 +34,18 @@
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │ [CORE PROFICIENCY]                                                                     │
-│ AI & LLMs:   Python • RAG Pipelines • LLM Fine-Tuning (LoRA) • LangChain • LangChain4j  │
+│ AI & LLMs:   Python • RAG Pipelines • LLM Fine-Tuning (LoRA / QLoRA) • LangChain        │
 │              Vector DBs (FAISS, Qdrant) • Ragas • Google Gemini API • Llama 3.1        │
-│ Backend:     Python (FastAPI) • Java 17 (Spring Boot 3) • RESTful APIs • WebSockets    │
-│ Data & DB:   PostgreSQL • SQLAlchemy • Alembic                                         │
+│ Backend:     Python (FastAPI) • RESTful APIs • WebSockets • PostgreSQL                 │
+│ Database:    SQLAlchemy (Sync/Core) • Alembic                                          │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ [WORKING KNOWLEDGE]                                                                    │
-│ Systems/Ops: Docker • Docker Compose • Nginx • Linux • Git & GitHub Actions            │
-│ Fullstack:   Flutter (Riverpod, Dio) • React 18 • TypeScript • Streamlit               │
+│ [WORKING KNOWLEDGE / COLLABORATIVE EXPOSURE]                                          │
+│ Backend:     Java 17 (Spring Boot 3, LangChain4j)                                      │
+│ Frontend:    Flutter (Dart, Riverpod) • Streamlit • Basic React / TypeScript           │
+│ DevOps/Sys:  Docker • Docker Compose • Nginx • Linux • Git & GitHub Actions            │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ [METHODOLOGIES & PRACTICES]                                                            │
-│ Architecture: Modular Monolith • Microservices Bridge • Clean Architecture • SRS/ERD   │
+│ Architecture: Modular Monolith • Clean Architecture • System Design • SRS / ERD        │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -52,25 +53,25 @@
 <summary><b>🔍 View Technology Badges</b></summary>
 <br/>
 
-**AI & Machine Learning**
+**AI & Machine Learning (Core)**
 ![Python](https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-EA6D4A?style=flat-square&logo=qdrant&logoColor=white)
 
-**Backend & Frameworks**
+**Backend & Data**
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Java](https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Java](https://img.shields.io/badge/Java_17_(Working)-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3_(Working)-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 
-**Frontend & Mobile**
+**Frontend & Mobile (Working / Collaborated)**
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 </details>
@@ -140,8 +141,8 @@
 ---
 
 ### 3. 🍜 ROS: Real-time Restaurant Ordering & Kitchen Management System
-**Full-Cycle Software Engineering Project** | **Role:** Team Leader & Core Backend/Mobile Lead  
-**Tech Stack:** `Python (FastAPI)` · `SQLAlchemy 2.0` · `PostgreSQL 16` · `Flutter (Riverpod)` · `React 18 (TypeScript)` · `WebSockets` · `Docker`  
+**Full-Cycle Software Engineering Project** | **Role:** Team Leader & Core Backend Engineer  
+**Tech Stack:** `Python (FastAPI)` · `SQLAlchemy` · `PostgreSQL` · `Flutter (Dart)` · `WebSockets` · `Docker`  
 **Repository:** [github.com/gthinh29/ROS](https://github.com/gthinh29/ROS)
 
 > **Problem**: Traditional restaurant operations suffer from delayed order-to-kitchen handoffs, bill splitting mistakes, and fragmented communication between front-of-house staff, cashier, and kitchen.
@@ -153,20 +154,20 @@
                                            │
                            ┌───────────────▼───────────────┐
                            │      FastAPI Backend Core     │
-                           │   (Async WebSockets + RBAC)   │
+                           │   (Sync ORM + WebSockets)     │
                            └───────┬───────────────┬───────┘
                                    │               │
         ┌──────────────────────────┴────┐     ┌────┴──────────────────────────┐
         ▼                               ▼     ▼                               ▼
- [Customer App]                   [Staff App] [Kitchen Display (KDS)]  [POS Cashier Web]
- (Flutter / QR)                  (Flutter)    (React / TS Realtime)    (React / TS)
+ [Customer Web / App]             [Staff App] [Kitchen Display (KDS)]   [POS / Admin Web]
+ (Flutter Web / QR)              (Flutter Mobile) (Flutter Web Realtime) (Flutter Web)
 ```
 
-- **Team Leadership & System Architecture**: Trưởng nhóm dự án 4 thành viên; thiết kế kiến trúc toàn hệ thống, sơ đồ CSDL (ERD), đặc tả giao thức realtime WebSocket, phân công nhiệm vụ và review mã nguồn (Pull Request).
-- **High-Throughput Async Backend**: Xây dựng toàn bộ tầng backend nghiệp vụ với **FastAPI** và **SQLAlchemy 2.0 (asyncio)** kết nối cơ sở dữ liệu **PostgreSQL 16**.
-- **Real-Time Kitchen Dispatch (KDS)**: Triển khai kênh WebSockets 2 chiều độ trễ <1s kết nối tức thời đơn đặt món từ bàn ăn khách hàng tới màn hình hiển thị tại bếp (KDS).
-- **Quy trình nghiệp vụ tài chính phức tạp**: Xử lý logic chia hóa đơn (Split Bill theo món hoặc chia đều), máy trạng thái quản lý bàn ăn (Table State Machine), và cơ chế tự động trừ nguyên liệu/kho khi chốt món.
-- **Containerization**: Đóng gói toàn bộ hệ thống (PostgreSQL, FastAPI Backend, Nginx, các ứng dụng Web) với cấu hình **Docker Compose** và healthcheck tự động.
+- **Team Leadership & System Architecture**: Trưởng nhóm dự án 4 thành viên; trực tiếp thiết kế kiến trúc toàn hệ thống, sơ đồ CSDL (ERD), đặc tả API contracts & giao thức WebSocket thời gian thực, điều phối Git workflow và review mã nguồn.
+- **Core Backend Engineering (Personal Contribution)**: Trực tiếp phát triển toàn bộ core backend với **FastAPI**, **SQLAlchemy** (Session / Engine) và **PostgreSQL**; tối ưu hóa luồng nghiệp vụ máy trạng thái bàn ăn (Table State Machine) và chia tách hóa đơn (Split Bill).
+- **Real-Time WebSocket Event Bus**: Thiết kế cơ chế WebSocket broadcast kết nối tức thời đơn đặt món từ bàn ăn khách hàng tới màn hình hiển thị tại bếp (KDS) và quầy thu ngân với độ trễ <1s.
+- **Cross-Platform Frontend (Team Collaboration)**: Toàn bộ client apps (`customer_web` và `internal_web`) được xây dựng đồng nhất trên nền tảng **Flutter / Dart** bởi các thành viên frontend, giao tiếp với backend qua REST API & WebSockets.
+- **Containerization & Deployment**: Đóng gói backend FastAPI, cơ sở dữ liệu PostgreSQL và reverse proxy Nginx bằng **Docker Compose** với healthcheck tự động.
 
 ---
 
